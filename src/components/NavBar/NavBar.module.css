@@ -1,0 +1,32 @@
+.bar{
+    align-items: inherit !important;
+    display: flex;
+}
+
+.txt{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btnLink{
+    color: lightblue;
+    position:absolute;
+    transition: .5s ease;
+    left: 70%;
+}
+
+.search{
+    position:absolute;
+    transition: .5s ease;
+    left: 80%;
+}
+
+/* @media(max-width: 770px){
+    .bar{
+        width: 100%;
+    }
+} */

@@ -1,0 +1,21 @@
+.spinner{
+    display: flex;
+    width: 200px;
+    margin: 40px auto;
+}
+
+.results{
+    columns: 2 auto;
+    margin-top: 50px;
+}
+
+.heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 770px){
+    .results{
+        columns: 1 auto;
+    }
+}

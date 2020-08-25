@@ -1,0 +1,18 @@
+.card{
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 20px solid rgba(36, 36, 209, 0.7);
+}
+
+.btnView{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
